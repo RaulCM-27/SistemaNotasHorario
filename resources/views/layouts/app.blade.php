@@ -53,16 +53,16 @@
                     <a class="nav-link text-white" href="#"><i class="bi bi-house-door me-2"></i>Inicio</a>
                 </li>
                 <li class="nav-item mb-2">
-                    <a class="nav-link text-white" href="#"><i class="bi bi-people me-2"></i>Horarios</a>
+                    <a class="nav-link text-white" href="#"><i class="bi bi-calendar-week me-2"></i>Horarios</a>
                 </li>
                 <li class="nav-item mb-2">
                     <a class="nav-link text-white" href="#"><i class="bi bi-journal-text me-2"></i>Asignaturas</a>
                 </li>
                 <li class="nav-item mb-2">
-                    <a class="nav-link text-white" href="#"><i class="bi bi-journal-text me-2"></i>Estudiantes</a>
+                    <a class="nav-link text-white" href="{{ route('estudiantes.index') }}"><i class="bi bi-person-lines-fill me-2"></i>Estudiantes</a>
                 </li>
                 <li class="nav-item mb-2">
-                    <a class="nav-link text-white" href="#"><i class="bi bi-journal-text me-2"></i>Profesores</a>
+                    <a class="nav-link text-white" href="#"><i class="bi bi-person-badge me-2"></i>Profesores</a>
                 </li>
             </ul>
         </nav>
