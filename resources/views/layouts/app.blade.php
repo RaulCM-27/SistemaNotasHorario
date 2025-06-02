@@ -79,7 +79,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ route('estudiantes.index') }}">
                         <i class="bi bi-person-lines-fill me-2"></i>
                         <span>Estudiantes</span>
                     </a>
@@ -94,10 +94,10 @@
         </nav>
     </div>
 
-    <div class="container py-4">
+    <main id="main">
         @yield('content')
-    </div>
-
+    </main>
+    
     <!-- Bootstrap Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Script personalizados -->
